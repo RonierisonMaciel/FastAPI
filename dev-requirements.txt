@@ -1,0 +1,7 @@
+-r requirements.txt
+flake8
+black
+pytest
+uvicorn
+pytest-cov
+requests
