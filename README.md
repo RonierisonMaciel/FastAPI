@@ -67,3 +67,11 @@ python3 -m uvicorn swapi.main:app
 Update EC2 security-group settings for your instance to allow HTTP traffic to port 80.
 
 Now when you visit your public IP of the instance, you should be able to access your API.
+
+## Interactive API docs
+
+```bash
+http:<YOUR_EC2_IP>/api/planets/
+http:<YOUR_EC2_IP>/docs
+http:<YOUR_EC2_IP>/redoc
+```
