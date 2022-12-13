@@ -28,10 +28,15 @@ Clone the FastAPI server app (or create your `main.py` in Python).
 git clone git@github.com:RonierisonMaciel/fastapi.git
 ```
 
+```bash
+cd fastapi
+pip3 install -r requirements.txt
+```
+
 Add the FastAPI configuration to NGINX's folder. Create a file called `fastapi_nginx` (like the one in this repository).
 
 ```bash
-sudo vim /etc/nginx/sites-enabled/fastapi_nginx
+sudo nano /etc/nginx/sites-enabled/fastapi_nginx
 ```
 
 And put this config into the file (replace the IP address with your EC2 instance's public IP):
