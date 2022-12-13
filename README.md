@@ -30,7 +30,7 @@ git clone git@github.com:RonierisonMaciel/fastapi.git
 
 ```bash
 cd fastapi
-pip3 install -r requirements.txt
+pip3 install -r dev-requirements.txt
 ```
 
 Add the FastAPI configuration to NGINX's folder. Create a file called `fastapi_nginx` (like the one in this repository).
